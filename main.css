@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+html{
+    overflow-x:hidden;
+}
+
+.container{
+    max-width: 1024px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+header{
+    background-color: #12402A;
+    color: #fff;
+    padding-top: 20px;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    box-shadow: 10px 10px 10px rgb(0, 0, 0,0.20);
+}
+
+header h1{
+    font-family: 'Castoro Titling', cursive;
+}
+
+header > .container,
+footer > .container{
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 16px;
+}
+
+nav{
+    background-color: #D0D5D9;
+    padding: 15px 0;
+    display: none;
+    text-align:end;
+}
+
+nav li{
+    list-style: none;
+    display: inline;
+    margin-right: 16px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+nav li a{
+    text-decoration: none;
+    color: #0F592F;
+}
+
+nav li a:hover{
+    color: #6AA684;
+}
+
+
+.menu-hamburger{
+    width: 32px;
+    cursor: pointer;
+}
+
+.menu-hamburger span{
+    height: 2px;
+    width: 100%;
+    background-color: #fff;
+    display: block;
+    margin-bottom: 4px;
+}
+
+.container-flex{
+    display: flex;
+}
+
+#sobre-a-loja img{
+    width:400px;
+    margin-right: 24px;
+    border-radius: 20px;
+}
+
+section{
+    padding: 48px 0;
+}
+
+section h2{
+    margin-bottom: 16px;
+    color: #12402A;
+}
+
+section p{
+    color: #949FA6;
+    text-align: justify;
+}
+
+#em-destaque{
+    background-color: #f4f4f4;
+}
+
+.lista-veiculos{
+    flex-wrap: wrap;
+}
+
+.lista-veiculos li{
+    list-style: none;
+    max-width: 30%;
+    margin-bottom: 24px;
+    background-color: #eceff2;
+    border-radius: 20px;
+    box-shadow: 20px 20px 20px rgb(0, 0, 0,0.20);
+}
+
+.lista-veiculos img{
+    max-width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+
+.lista-veiculos li h3{
+    margin: 10px 0;
+    color: #12402A;
+    padding: 0 10px;
+}
+
+
+.lista-veiculos li p{
+    padding: 0 10px;
+}
+
+.item-central{
+    margin: 0 5%;
+}
+
+button{
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    padding: 8px 0;
+    border: none;
+    background-color:#0F592F;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 0 0 20px 20px;
+}
+
+.lista-veiculos li strong{
+    margin: 10px 0;
+    display: block;
+    font-size: 25px;
+    color:#F21313;
+    text-align: center;
+}
+
+button:hover{
+    background-color:#6AA684;
+}
+
+.price{
+    margin: 10px 0;
+    display: block;
+    font-size: 25px;
+    color:#0F592F;
+    text-align: center;
+}
+
+#promoções li del{
+    font-size: 20px;
+    color: #f97878;
+}
+
+
+.form-campo{
+    margin-bottom: 16px;
+}
+
+.form-campo label{
+    font-weight: bold;
+    display: block;
+}
+
+.form-campo input,
+.form-campo textarea{
+    width: 400px;
+    display: block;
+    padding: 8px;
+}
+
+#contact-us button{
+    width: 400px;
+}
+
+
+.form-campo textarea{
+    resize: none;
+    height: 120px;
+}
+
+form{
+    max-width: 360px;
+    color: #949FA6;
+}
+
+
+footer{
+    background-color: #12402A;
+    color: #fff;
+    text-align: center;
+    padding: 16px 0;
+}
+
+footer a{
+    text-decoration: none;
+    color: #fff;
+}
+
+footer a:hover{
+    color: #D0D5D9;
+}
+
+
+footer li{
+    list-style: none;
+}
+
+footer li img{
+    width: 30px;
+    margin-left: 16px;
+}
+
+.error{
+    color: red;
+    font-size: 13px;    
+}
+
