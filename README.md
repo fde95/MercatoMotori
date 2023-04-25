@@ -14,7 +14,7 @@ Eu gostaria de compartilhar com vocês o projeto que desenvolvi durante o 10º m
 Foi então que criei a página Mercato Motori, uma concessionária de carros de luxo com padrão Italiano para executivos. Utilizei o plugin de menu em "hamburguer" com efeito de slide ao aparecer na tela e também o plugin de imagem em carrossel, adicionando imagens especiais ao início da página.
 Na sessão de "Em destaque" e "Promoções", criei cards para a exibição dos automóveis com uma breve apresentação e um botão que, quando clicado, leva diretamente para a página de contato preenchendo automaticamente o campo "Veículo de Interesse". Também adicionei uma máscara ao número de telefone para que haja um padrão e alertas de erro caso o formulário seja preenchido incorretamente.
 Por fim, disponibilizei o link da página no Versel. Espero que gostem do resultado! 
-<p><p><b>*alerta: pode haver alteração do layout dependendo da resolução do aparelho</b>, ainda não aprendi a disponibilizar em várias resoluções o mesmo arquivo rsrs*</p></p>
+<p><p><b>*alerta*</b> Gostaria de alertar que, devido à minha limitação de conhecimento, o layout pode sofrer alterações dependendo da resolução do dispositivo utilizado, pois ainda não aprendi a disponibilizar o mesmo arquivo em várias resoluções. No entanto, estou muito satisfeito com o resultado final e espero que vocês também gostem</p></p>
 
 <br><h3>Acesse aqui: <a href="https://mercato-motori-by-felipe-espinoza.vercel.app/">MERCATO MOTORI</a>.</h3>
 
